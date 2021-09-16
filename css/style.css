@@ -8,15 +8,21 @@
 @import "common/user-component.css";
 @import "common/icon-row.css";
 @import "common/no-mobile.css";
+@import "common/alt.header.css";
 
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/chat.css";
 @import "screen/find.css";
+@import "screen/chating.css";
+@import "screen/setting.css";
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  height: 100vh;
+  height: 100%;
   background: var(--rainbow-bottom);
+}
+#screen {
+  height: 100vh;
 }

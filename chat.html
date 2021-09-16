@@ -9,6 +9,7 @@
     <title>Chat - Rainbow Talk</title>
   </head>
   <body>
+    <div id="screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -27,12 +28,16 @@
     <header class="screen-header">
       <h1 class="screen-header__title">Chat</h1>
       <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i> </span>
+        <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-comment-medical fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="setting.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span>
+        <span>
+          <a href="setting.html">
+            <i class="fas fa-cog fa-lg">
+            </i>
+          </a>
+          <div id="setting-alert"></div>
+        </span>
       </div>
     </header>
     <main class="friends-screen">
@@ -103,6 +108,7 @@
         </li>
       </ul>
     </nav>
+  </div>
     <div id="no-mobile">
       <span>Your screen is too Big 💤</span>
     </div>

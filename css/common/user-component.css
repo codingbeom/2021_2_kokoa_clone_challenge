@@ -1,6 +1,6 @@
 .user-component {
   justify-content: space-between;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 .user-component,
 .user-component__column:first-child {
@@ -37,7 +37,7 @@
   font-weight: normal;
 }
 .user-component:last-child {
-  margin-bottom: 50px;
+  padding-bottom: 80px;
 }
 .user-component__time {
   font-size: small;

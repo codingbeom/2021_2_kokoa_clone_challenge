@@ -31,6 +31,9 @@
   align-items: center;
   margin-bottom: 20px;
 }
+.open-post:last-child {
+  padding-bottom: 70px;
+}
 .open-post__title {
   font-weight: 700;
   margin-bottom: 7px;

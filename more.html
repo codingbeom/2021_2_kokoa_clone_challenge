@@ -9,121 +9,123 @@
     <title>More - Rainbow Talk</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span>No Service</span>
-        <i class="fas fa-wifi"></i>
+    <div id="screen">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>11:37</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-volume-mute fa-lg"></i>
+          <i class="fas fa-bolt"></i>
+          <span>11%</span>
+          <i class="fas fa-battery-quarter fa-lg"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <span>11:37</span>
-      </div>
-      <div class="status-bar__column">
-        <i class="fas fa-volume-mute fa-lg"></i>
-        <i class="fas fa-bolt"></i>
-        <span>11%</span>
-        <i class="fas fa-battery-quarter fa-lg"></i>
-      </div>
-    </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">More</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i> </span>
-        <span>
-          <a href="setting.html"
-            ><i class="fas fa-cog fa-lg"> </i>
-            <div class="alret-read__cog"></div
-          ></a>
-        </span>
-      </div>
-    </header>
-    <main class="friends-screen">
-      <div class="user-component">
-        <!--.class명만 작성해서 부모코드와 똑같은 태그의 
+      <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+          <span><i class="fas fa-search fa-lg"></i> </span>
+          <span>
+            <a href="setting.html"
+              ><i class="fas fa-cog fa-lg"> </i>
+              <div class="alret-read__cog"></div
+            ></a>
+          </span>
+        </div>
+      </header>
+      <main class="friends-screen">
+        <div class="user-component">
+          <!--.class명만 작성해서 부모코드와 똑같은 태그의 
           클래스명이 입혀진 코드 생성 가능-->
-        <div class="user-component__column">
-          <img
-            src="img/profile.jpg"
-            class="user-component__avatar user-component__avatar--xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Rainbow</h4>
-            <h6 class="user-component__subtitle">
-              + 010-****-****
-              <div class="user-component__danger"><span>!</span></div>
-            </h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <i class="fas fa-comment-alt fa-3x"></i>
-        </div>
-      </div>
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="far fa-calendar-alt"></i>
-          <span>Calender</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-walking"></i>
-          <span>Talk Drive</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-smile-wink"></i>
-          <span>Emoticons</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-palette"></i>
-          <span>Themes</span>
-        </div>
-      </div>
-      <div class="more-suggestions">
-        <h4 class="more-suggestions__title">suggestions</h4>
-        <div class="more-suggestions__icons">
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image" id="first">
-              <i class="fas fa-quote-right"></i>
+          <div class="user-component__column">
+            <img
+              src="img/profile.jpg"
+              class="user-component__avatar user-component__avatar--xl"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Rainbow</h4>
+              <h6 class="user-component__subtitle">
+                + 010-****-****
+                <div class="user-component__danger"><span>!</span></div>
+              </h6>
             </div>
-            <span class="more-suggestions__icon-text">Story</span>
           </div>
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image" id="second">
-              <i class="fas fa-user-friends"></i>
-            </div>
-            <span class="more-suggestions__icon-text">friends</span>
-          </div>
-          <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-image" id="third">
-              <i class="fas fa-gamepad"></i>
-            </div>
-            <span class="more-suggestions__icon-text">Game</span>
+          <div class="user-component__column">
+            <i class="fas fa-comment-alt fa-3x"></i>
           </div>
         </div>
-      </div>
-    </main>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chat.html">
-            <span class="nav__noticication">1</span>
-            <i class="far fa-comment fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html">
-            <i class="fas fa-search fa-2x"></i>
-          </a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html">
-            <i class="fas fa-ellipsis-h fa-2x"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+        <div class="icon-row">
+          <div class="icon-row__icon">
+            <i class="far fa-calendar-alt"></i>
+            <span>Calender</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-walking"></i>
+            <span>Talk Drive</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="far fa-smile-wink"></i>
+            <span>Emoticons</span>
+          </div>
+          <div class="icon-row__icon">
+            <i class="fas fa-palette"></i>
+            <span>Themes</span>
+          </div>
+        </div>
+        <div class="more-suggestions">
+          <h4 class="more-suggestions__title">suggestions</h4>
+          <div class="more-suggestions__icons">
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image" id="first">
+                <i class="fas fa-quote-right"></i>
+              </div>
+              <span class="more-suggestions__icon-text">Story</span>
+            </div>
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image" id="second">
+                <i class="fas fa-user-friends"></i>
+              </div>
+              <span class="more-suggestions__icon-text">friends</span>
+            </div>
+            <div class="more-suggestions__icon">
+              <div class="more-suggestions__icon-image" id="third">
+                <i class="fas fa-gamepad"></i>
+              </div>
+              <span class="more-suggestions__icon-text">Game</span>
+            </div>
+          </div>
+        </div>
+      </main>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a class="nav__link" href="friends.html">
+              <i class="fas fa-user fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="chat.html">
+              <span class="nav__noticication">1</span>
+              <i class="far fa-comment fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="find.html">
+              <i class="fas fa-search fa-2x"></i>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a class="nav__link" href="more.html">
+              <i class="fas fa-ellipsis-h fa-2x"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div id="no-mobile">
       <span>Your screen is too Big 💤</span>
     </div>

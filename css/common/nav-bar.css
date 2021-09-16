@@ -47,7 +47,6 @@
   }
 }
 .nav__btn {
-  transform: translateY(60px);
   opacity: 0;
   animation: navButton 0.9s ease forwards;
 }

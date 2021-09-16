@@ -4,3 +4,12 @@
   padding: 3px 6px;
   border-radius: 50%;
 }
+#setting-alert {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 74px;
+  right: 32px;
+}
