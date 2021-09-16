@@ -1,0 +1,60 @@
+#friends-display__link {
+  text-align: center;
+  display: block;
+  padding: 15px 0px;
+  font-size: 17px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background: var(--rainbow-left);
+}
+#friends-display__link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+#friends-display__link span {
+  padding-left: 4px;
+  padding-right: 13px;
+  font-weight: 600;
+}
+.friends-screen {
+  margin: 15px 35px;
+}
+.friends-screen__channel {
+  margin-top: 20px;
+}
+.friends-screen__channel-list {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding-top: 20px;
+}
+.friends-screen__channel-list span {
+  font-weight: 600;
+}
+.friends-screen__channel-list i {
+  cursor: pointer;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background: var(--rainbow-right);
+  position: absolute;
+  width: 100vw; /*화면 높이의 100프로*/
+  height: 100vh; /*화면 넓이의 100프로*/
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 132px;
+  z-index: 1;
+  animation: hideSplashScreen 0.7s ease-in-out forwards;
+  animation-delay: 1s;
+}

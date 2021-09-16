@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--link:css 만 입력하면 자동으로 css파일 불러옴-->
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat /w kibeom - Setting</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar status-bar__chat">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--To Do : Wifi Icon-->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <!--Battery Icon-->
+        <i class="fas fa-bolt"></i>
+        <!--Lightning Icon-->
+      </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+          <a href="chats.html">
+            <i class="fas fa-angle-left fa-3x"></i>
+          </div>
+        </a>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Beom ho</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+    </header>
+    <main class="friends-screen main-chat">
+        <div class="chat__timestamp">Tuesday, June 30, 2020
+        </div>
+        <div class="message-row">
+            <img src="screenshots/profile.jfif"/>
+            <div class="message-row__content">
+                <span class="message__author">Beom ho</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hello</span>
+                    <span class="message__time">22:23</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Nice to meet you!</span>
+                    <span class="message__time">22:23</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <form class="reply">
+      <div class="form__column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..."/>
+        <i class="far fa-meh-blank fa-2x"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>

@@ -1,0 +1,42 @@
+:root {
+  --rainbow-right: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 1),
+    rgba(255, 80, 0, 1),
+    rgba(255, 255, 0, 1),
+    rgba(0, 255, 0, 1),
+    rgba(0, 50, 255, 1),
+    rgba(0, 0, 255, 1),
+    rgba(255, 0, 255, 1)
+  );
+  --rainbow-bottom: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.3),
+    rgba(255, 80, 0, 0.3),
+    rgba(255, 255, 0, 0.3),
+    rgba(0, 255, 0, 0.3),
+    rgba(0, 50, 255, 0.3),
+    rgba(0, 0, 255, 0.3),
+    rgba(255, 0, 255, 0.3)
+  );
+  --rainbow-left: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.4),
+    rgba(255, 80, 0, 0.4),
+    rgba(255, 255, 0, 0.4),
+    rgba(0, 255, 0, 0.4),
+    rgba(0, 50, 255, 0.4),
+    rgba(0, 0, 255, 0.4),
+    rgba(255, 0, 255, 0.4)
+  );
+  --rainbow-right__input: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.6),
+    rgba(255, 80, 0, 0.6),
+    rgba(255, 255, 0, 0.6),
+    rgba(0, 255, 0, 0.6),
+    rgba(0, 50, 255, 0.6),
+    rgba(0, 0, 255, 0.6),
+    rgba(255, 0, 255, 0.6)
+  );
+}
