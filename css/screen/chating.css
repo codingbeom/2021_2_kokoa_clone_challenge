@@ -104,25 +104,27 @@
 .reply__column:last-child button {
   position: absolute;
   right: -19px;
-  top: 2px;
+  top: 1px;
 }
 .reply__column:last-child > i {
-  right: 20px;
-  top: 3px;
+  right: 6%;
+  top: 4px;
 }
 .reply input {
   padding: 10px;
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
   transition: all 0.5s ease;
 }
 .reply input:focus {
   outline: none;
+  border: none;
 }
 .reply__column button i {
   opacity: 1;
 }
 .reply__column button {
+  left: 96%;
   border: none;
   width: 34px;
   height: 34px;
@@ -149,7 +151,7 @@
   background: var(--rainbow-bottom);
 }
 .reply:focus-within button {
-  transform: translateX(-14px);
+  transform: translateX(-10px);
   background-color: black;
   color: white;
 }
